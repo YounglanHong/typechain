@@ -1,0 +1,11 @@
+//* TS에서 JS로 컴파일(변환)하는 옵션
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*"], // [index.ts]
+  "exclude": ["node_modules"]
+}
